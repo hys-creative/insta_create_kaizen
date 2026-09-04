@@ -1,0 +1,7 @@
+# img/ フォルダのみをGit管理対象にする（それ以外は全て除外）
+# Instagram Graph API がパブリックURLを要求するため、画像だけをGitHub Pagesで公開する。
+# コード・JSON・GAS控え・cloud_console/（認証情報）はローカルのみに置き、公開リポジトリには含めない
+/*
+!img/
+!img/**
+!.gitignore
